@@ -1,0 +1,349 @@
+body {
+    margin: 0;
+    width: 200%;
+    background-color: #f7f7f7;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 0 5px lightgrey;
+    z-index: 10;
+}
+
+#left {
+    width:140px;
+    display: flex;
+    flex-direction: row;
+    border-right: 1px solid lightgrey;
+    padding-right: 10px;
+}
+
+
+
+#logo {
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 100px;
+    max-width: 300px;
+    margin: auto;
+    left: 47%;
+
+}
+
+.container {
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 3px;
+    background-color: grey;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+h3.board {
+    margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+
+}
+
+
+
+#glass {
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ margin-left:40px;
+
+}
+
+#search {
+    width: 200px;
+    border: none;
+    font-size: 20px;
+
+}
+
+
+
+
+h2 {
+    font-weight: normal;
+    margin-left: 100px;
+}
+
+#right{
+    width:400px;
+    height:100%;
+    display:flex;
+    flex-direction: row;
+
+}
+
+.create{
+    width:100px;
+    height:100%;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid lightgrey;
+}
+
+
+
+
+div.plus{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    border:1px solid lightgrey;
+
+}
+
+#plusicon{
+    font-size:12px;
+}
+
+
+
+p.create1{
+    margin-left:10px;
+}
+
+.name{
+    width:200px;
+    height:100%;
+    border-right:1px solid lightgrey;
+    display:flex;
+    align-items:center;
+    
+}
+
+.blockname{
+    height:40px;
+    width:40px;
+    background-color:green;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-left:10px;
+    color:#fff;
+    border-radius:5px;
+}
+
+p.myname{
+    margin-left:10px;
+
+}
+
+
+.bell{
+    width:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bellicon{
+    font-size: 22px;
+}
+
+
+#linecontaint{
+    position: fixed;
+    top:8px;
+    width:100%;
+    height:100px;
+    
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+}
+#team {
+    display:flex;
+    flex-direction: row;
+    margin-top: 60px;
+    align-items: center;
+
+
+}
+
+#staricon{
+    position:absolute;
+    left:70px;
+    font-size:25px;
+    color:blue;
+}
+
+
+
+#account{
+    display:flex;
+    align-items: center;
+    margin-top:50px;
+    height:50px;
+    width:400px;
+
+
+}
+
+.link{
+    height:20px;
+    width:250px;
+    border:1px solid lightgrey;
+    padding:5px;
+    border-radius:5px;
+
+}
+
+.private{
+    height:20px;
+    width:70px;
+    border:1px solid lightgrey;
+    padding:5px;
+    border-radius:5px;
+    margin-left: 10px;
+    display:flex;
+    align-items: center;
+
+
+}
+
+p.word{
+    margin-left:10px;
+    font-size:15px;
+}
+
+
+#container {
+    clear: both;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+
+}
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-left: 30px;
+    border-radius: 10px;
+    width: 280px;
+
+}
+
+.containt {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+section.firstblock {
+
+    height: 320px;
+
+}
+
+section.secondblock {
+
+    height: 500px;
+
+}
+
+section.thirdblock {
+
+    height: 500px;
+
+}
+
+section.fourthblock {
+
+    height: 420px;
+
+}
+
+h4.nameproject {
+    font-weight: normal;
+    margin-left: 7%;
+    font-size: 15px;
+
+}
+
+p.description {
+    font-weight: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+
+}
+
+
+
+section .project {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #edf0f7;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 86%;
+    border-radius: 6px;
+
+}
+
+
+
+.bookmark {
+    margin-right:10px;
+    background: green;
+    height: 28px;
+    width: 16px;
+}
+
+.bookmark:after {
+    content: '';
+    display: block;
+    border: 8px solid transparent;
+    border-bottom-color: #edf0f7;
+    margin-top: 12px;
+    bottom: 0;
+}
+div.bookmark div:nth-of-type(2) {
+    background: red;
+}
+
+

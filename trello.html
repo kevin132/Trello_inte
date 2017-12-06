@@ -1,26 +1,355 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>trello</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Trello</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
 </head>
 <body>
 
-<header>
+  <header>
 
-        <div class="container" onclick="myFunction(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </div>
+    <div id="left">
+
+     <div class="container" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
 
 
+    <h3 class="board">BOARDS</h3>
+
+    <div id="glass">
+      <i class="fa fa-search" aria-hidden="true"></i>
+
+      <input type="text" id="search" name="firstname" placeholder="Search..">
+
+    </div>
+  </div>
+  <img src="images/logo.png" id="logo" alt="Trello logo">
 
 
+  <div id="right">
+
+
+    <div class="create">
+      <div class="plus">
+        <i class="fa fa-plus" id="plusicon" aria-hidden="true"></i>
+      </div>
+      <p class="create1">Create</p>
+    </div>
+
+    <div class="name">
+
+      <div class="blockname">KC</div>
+      <p class="myname">Kevin Chen</p>
+    </div>
+
+    <div class="bell">
+     <i class="fa fa-bell-o" id= bellicon aria-hidden="true"></i>
+   </div>
+
+ </div>
+
+</div>
 </header>
 
+<div id="linecontaint">
 
-<script src="script.js"></script>
+  <div id="team">
+
+    <i class="fa fa-star" id="staricon" aria-hidden="true"></i>
+    <h2>Team Stormer Beta development-firstphase</h2>
+
+  </div>
+
+
+  <div id="account">
+    <div class="link">
+      <i class="fa fa-paperclip" aria-hidden="true"></i>
+      <a href="">http://trello/kevinchen/123</a>
+    </div>
+    <div class="private">
+      <i class="fa fa-lock" aria-hidden="true"></i>
+      <p class="word">Private</p>
+    </div>
+
+  </div>
+
+
+</div>
+
+
+
+
+<div id="container">
+  <section class="firstblock">
+
+    <h4 class="nameproject">Blocklog</h4>
+
+    <div class="containt">
+
+
+      <div class="project">
+
+        <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+        <div class="bookmark"></div>
+      </div>
+      <div class="project">
+
+        <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+      </div>
+      <div class="project">
+
+
+        <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+        <div class="bookmark"></div>
+      </div>
+
+      <p class="ticket">add a ticket ...</p>
+      
+    </div>
+  </section>
+
+
+  <section class="secondblock">
+
+
+    <h4 class="nameproject">Design Sprint #7</h4>
+    <div class="containt">
+      <div class="project">
+       <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+       <div class="bookmark"></div>
+     </div>
+     <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+    </div>
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+    </div>
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+      <div class="bookmark"></div>
+    </div>
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+      <div class="bookmark"></div>
+    </div>
+
+    <p class="ticket">add a new ticket ...</p>
+
+  </div>
+
+</section>
+
+
+
+<section class="thirdblock">
+
+  <h4 class="nameproject">Design Sprint #13</h4>
+
+  <div class="containt">
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+      <div class="bookmark"></div>
+    </div>
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+
+    </div>
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+      <div class="bookmark"></div>
+    </div>
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+
+    </div>
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+      <div class="bookmark"></div>
+
+    </div>
+
+    <p class="ticket">add a new ticket ...</p>
+
+
+  </div>
+</section>
+
+
+
+<section class="fourthblock">
+
+  <h4 class="nameproject">Accepted</h4>
+
+  <div class="containt">
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+      <div class="bookmark"></div>
+    </div>
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+      <div class="bookmark"></div>
+    </div>
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+
+    </div>
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+      <div class="bookmark"></div>
+    </div>
+    <div id="ticket">
+      <p class="ticket">add a new ticket ...</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="secondblock">
+
+
+  <h4 class="nameproject">Design Sprint #7</h4>
+  <div class="containt">
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+      <div class="bookmark"></div>
+    </div>
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+
+    </div>
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+      <div class="bookmark"></div>
+    </div>
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+
+      <div class="bookmark"></div>
+    </div>
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+
+      <div class="bookmark"></div>
+    </div>
+
+    <p class="ticket">add a new ticket ...</p>
+
+  </div>
+
+</section>
+
+<section class="firstblock">
+
+  <h4 class="nameproject">Blocklog</h4>
+
+  <div class="containt">
+
+
+    <div class="project">
+
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+      <div class="bookmark"></div>
+    </div>
+    <div class="project">
+
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+      <div class="bookmark"></div>
+    </div>
+    <div class="project">
+
+
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+      <div class="bookmark"></div>
+    </div>
+
+    <p class="ticket">add a new ticket ...</p>
+
+  </div>
+</section>
+
+
+
+
+
+
+<section class="thirdblock">
+
+  <h4 class="nameproject">Design Sprint #13</h4>
+
+  <div class="containt">
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+      <div class="bookmark"></div>
+    </div>
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+
+    </div>
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+
+    </div>
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+      <div class="bookmark"></div>
+    </div>
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+      <div class="bookmark"></div>
+    </div>
+
+    <p class="ticket">add a new ticket ...</p>
+
+
+  </div>
+</section>
+
+
+
+<section class="fourthblock">
+
+  <h4 class="nameproject">Accepted</h4>
+
+  <div class="containt">
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+      <div class="bookmark"></div>
+    </div>
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+      <div class="bookmark"></div>
+    </div>
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+
+    </div>
+    <div class="project">
+      <p class="description">As an a user i want to create new account and delete my blog posts.</p>
+      <div class="bookmark"></div>
+    </div>
+
+    <p class="ticket">add a new ticket ...</p>
+
+  </div>
+</section>
+
+</div>
+
+
+
+
+
+
+
+<script src="js/script.js"></script>
 </body>
 </html>
