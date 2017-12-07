@@ -342,8 +342,5 @@ section .project {
     margin-top: 12px;
     bottom: 0;
 }
-div.bookmark div:nth-of-type(2) {
-    background: red;
-}
 
 
